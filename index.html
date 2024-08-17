@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>.....🏏 Cricket 🏏.....</h1>
+    </header>
+    <!-- hr tag -->
+    <hr class="style18">
+    <div class="container">
+        <div class="game">
+            <button id="bat" onclick="BatChoice();">
+                <img src="bat.png" alt="bat">
+            </button>
+            <button id="ball" onclick="BallChoice();">
+                <img src="ball.png" alt="ball">
+            </button>
+            <button id="stump" onclick="StumpChoice();">
+                <img src="stump.png" alt="stump">
+            </button>
+        </div>
+        <!-- hr tag -->
+        <hr class="style13">
+        <!-- display -->
+        <div class="display">
+            <h3 id="UserC">User Choice : none</h3>
+            <h3 id="CompC">Computer Choice : none</h3>
+            <h3 id="resBoard">Result : none</h3>
+            <h3 id="Score">Score : none</h3>
+
+        </div>
+        <div class="reset">
+            <button class="pushable reset-btn" onclick="reset();" >
+                <span class="shadow"></span>
+                <span class="edge"></span>
+                <span class="front">
+                    Reset
+                </span>
+            </button>
+
+        </div>
+    </div>
+
+
+    <script src="file.js"></script>
+</body>
+
+</html>
