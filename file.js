@@ -1,4 +1,4 @@
-alert("Nameste🙏\nThis is a Online Cricket game with bat, ball and stump");
+alert("\tNameste🙏\nThis is an Online Cricket game with bat, ball and stump\nHere, Bat defeats Ball\nBall defeats Stump\n Stump defeats Bat");
 
 let userChoice;
 let ComputerChoice;
